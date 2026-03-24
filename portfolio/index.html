@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div>Bineta KANE</div>
+            <ul>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#skills">Compétences</a></li>
+                <li><a href="#projects">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="about">
+                <img src="./image/bineta.jpeg" alt="Bineta KANE" class="profile-photo">
+                <h1>Bineta KANE</h1>
+                <p>Développeur Web en Formation - Étudiant à l'ESTM Dakar</p>
+                <p>Passionnée par la création d'expériences web modernes et intuitives</p>
+                <a href="#about"><strong> En savoir plus </strong></a>
+            </div>
+        </section>
+
+        <section id="about">
+            <div>
+                <h2>À propos de moi</h2>
+                <div>
+                    <p>Je suis Bineta KANE, étudiante en Génie Logiciel et Administration Réseau à l'École Supérieure de
+                        Technologie et de Management (ESTM) de Dakar.</p>
+                    <p>Passionné par le développement web, je maîtrise HTML, CSS et les concepts fondamentaux des
+                        réseaux. Mon objectif est de créer des applications web modernes, responsives et intuitives.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h1>Mes Compétences</h1>
+
+            <label for="html-skill">Html</label>
+            <progress id="html-skill" max="100" value="70"></progress> <br>
+
+            <label for="network-skill">Réseau</label>
+            <progress id="network-skill" max="100" value="90"></progress> <br>
+
+            <label for="css-skill">Css</label>
+            <progress id="css-skill" max="100" value="60"></progress> <br>
+
+            <label for="english-skill">Anglais</label>
+            <progress id="english-skill" max="100" value="90"></progress> <br>
+
+            <label for="os-skill">Système d'Exploitation</label>
+            <progress id="os-skill" max="100" value="80"></progress> <br>
+
+            <label for="law-skill">Droit</label>
+            <progress id="law-skill" max="100" value="80"></progress>
+        </section>
+
+        <section id="projects">
+            <h2>Mes Projets</h2>
+            <div class="projects-container">
+                <a href="#" class="project-card">
+                    <img src="./image/projet1.jpg" alt="Présentation du Stade">
+                    <div class="project-content">
+                        <h3>Présentation du Stade</h3>
+                        <p>Projet de démonstration d'un site de présentation sportive</p>
+                        <span class="project-tag">HTML • CSS</span>
+                    </div>
+                </a>
+
+                <a href="#" class="project-card">
+                    <img src="./image/projet2.jpg" alt="Site Web Responsive">
+                    <div class="project-content">
+                        <h3>Site Web Responsive</h3>
+                        <p>Un site adapté à tous les appareils avec design moderne</p>
+                        <span class="project-tag">HTML • CSS • JavaScript</span>
+                    </div>
+                </a>
+
+                <a href="#" class="project-card">
+                    <img src="./image/projet3.jpg" alt="Portfolio Personnel">
+                    <div class="project-content">
+                        <h3>Portfolio Personnel</h3>
+                        <p>Mon portfolio de développeur web avec tous mes projets</p>
+                        <span class="project-tag">HTML • CSS • JavaScript</span>
+                    </div>
+                </a>
+
+                <a href="#" class="project-card">
+                    <img src="./image/projet4.jpg" alt="Application Web">
+                    <div class="project-content">
+                        <h3>Application Web</h3>
+                        <p>Une application interactive pour la gestion de tâches</p>
+                        <span class="project-tag">HTML • CSS • JavaScript</span>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div>
+                <h2>Contactez-moi</h2>
+                <div class="contact-container">
+                    <div class="contact-info">
+                        <h3>Restons en contact</h3>
+                        <p>N'hésitez pas à me contacter pour discuter de projets, collaborations ou simplement
+                            pour échanger sur le développement web.</p>
+                        <div>
+                            <p><strong>Email:</strong> binetakane0102@gmail.com</p>
+                            <p><strong>Localisation:</strong> Dakar, Sénégal</p>
+                            <p><strong>Formation:</strong> ESTM Dakar</p>
+                            <p><strong>Téléphone:</strong> +221 77 673 76 41</p>
+                        </div>
+                    </div>
+                    <form class="contact-form">
+                        <div>
+                            <input type="text" placeholder="Votre nom" required>
+                        </div>
+                        <div>
+                            <input type="email" placeholder="Votre email" required>
+                        </div>
+                        <div>
+                            <textarea placeholder="Votre message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit">Envoyer</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div>
+            <p>&copy; 2026 Bineta KANE. Tous droits réservés.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
